@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "title": "Paper Title Here",
+      "year": "2025",
+      "venue": "Conference or Journal Name",
+      "url": "https://example.com/paper",
+      "urlLabel": "Read paper"
+    },
+    {
+      "title": "Another Research Paper",
+      "year": "2024",
+      "venue": "Workshop Name",
+      "url": "https://example.com/preprint",
+      "urlLabel": "Preprint"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "title": "Designing Reliable Web Apps",
+      "event": "Dev Summit",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Slides",
+          "url": "https://example.com/slides"
+        },
+        {
+          "label": "Recording",
+          "url": "https://example.com/video"
+        }
+      ]
+    },
+    {
+      "title": "From Idea to Open Source",
+      "event": "Community Meetup",
+      "year": "2024",
+      "links": [
+        {
+          "label": "Talk notes",
+          "url": "https://example.com/notes"
+        }
+      ]
+    }
+  ]
+}

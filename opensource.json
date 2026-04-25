@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "name": "awesome-project",
+      "url": "https://github.com/your-username/awesome-project",
+      "description": "A toolkit that streamlines developer workflows."
+    },
+    {
+      "name": "community-contributions",
+      "url": "https://github.com/",
+      "description": "Selected pull requests and feature contributions."
+    }
+  ]
+}

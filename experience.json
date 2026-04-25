@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "role": "Software Engineer Intern",
+      "organization": "Your Company",
+      "period": "2025",
+      "summary": "Built internal tools and improved deployment reliability.",
+      "url": "https://example.com",
+      "urlLabel": "Role details"
+    },
+    {
+      "role": "Research Assistant",
+      "organization": "Your University",
+      "period": "2024",
+      "summary": "Worked on applied ML prototypes and evaluation pipelines."
+    }
+  ]
+}

@@ -1,18 +1,25 @@
 {
   "items": [
     {
-      "title": "Paper Title Here",
+      "title": "The Imitation Fallacy: Why Behavioral Equivalence Cannot Verify Artificial Consciousness",
       "year": "2025",
-      "venue": "Conference or Journal Name",
-      "url": "https://example.com/paper",
+      "venue": "2025 IEEE 7th International Conference on Cognitive Machine Intelligence (CogMI)",
+      "url": "https://doi.org/10.1109/CogMI67134.2025.00045",
       "urlLabel": "Read paper"
     },
     {
-      "title": "Another Research Paper",
-      "year": "2024",
-      "venue": "Workshop Name",
-      "url": "https://example.com/preprint",
-      "urlLabel": "Preprint"
+      "title": "Entanglement Guided Stochastic Regularization for Robust Deep Learning",
+      "year": "2025",
+      "venue": "International Conference on Quantum Artifical Intelligence and Natural Language Processing",
+      "url": "https://doi.org/10.1007/978-3-032-13883-5_2",
+      "urlLabel": "Read paper"
+    },
+    {
+      "title": "Quantum-Inspired Attention for Efficient Face Recognition",
+      "year": "2025",
+      "venue": "International Conference on Quantum Artifical Intelligence and Natural Language Processing",
+      "url": "https://doi.org/10.1007/978-3-032-13883-5_4",
+      "urlLabel": "Read paper"
     }
   ]
 }

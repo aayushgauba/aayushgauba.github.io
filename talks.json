@@ -1,30 +1,97 @@
 {
   "items": [
     {
-      "title": "Designing Reliable Web Apps",
-      "event": "Dev Summit",
+      "title": "Beyond Rate Limiting: Building an Active Learning Defense System in Django",
+      "event": "DjangoCon US 2025",
       "year": "2025",
       "links": [
         {
-          "label": "Slides",
-          "url": "https://example.com/slides"
-        },
-        {
           "label": "Recording",
-          "url": "https://example.com/video"
+          "url": "https://www.youtube.com/watch?v=PUPSRMUlvdw"
         }
       ]
     },
     {
-      "title": "From Idea to Open Source",
-      "event": "Community Meetup",
-      "year": "2024",
+      "title": "Embracing Noise- How Data Corruption Can Make Models Smarter",
+      "event": "PyData Boston 2025",
+      "year": "2025",
       "links": [
         {
-          "label": "Talk notes",
-          "url": "https://example.com/notes"
+          "label": "Recording",
+          "url": "https://www.youtube.com/watch?v=wW_4Amv43AY"
         }
       ]
+    },
+    {
+      "title": "AI Web Application Firewall",
+      "event": "PySTL",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Recording",
+          "url": "https://www.youtube.com/watch?v=LaWYiQnx000"
+        }
+      ]
+    },
+    {
+      "title": "AI Web Application Firewall",
+      "event": "PySTL",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Recording",
+          "url": "https://www.youtube.com/watch?v=LaWYiQnx000"
+        }
+      ]
+    },
+    {
+      "title": "Quantum Inspired Facial Recognition",
+      "event": "PySTL",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Recording",
+          "url": "https://www.youtube.com/watch?v=kotVhTon0HU"
+        }
+      ]
+    },
+    {
+      "title": "Quantum vs Classical Randomness",
+      "event": "PyData STL",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Event page",
+          "url": "https://www.meetup.com/pydata-st-louis/events/312686205"
+        }
+      ]
+    },
+    {
+      "title": "The Hidden Power of Synthetic Data: Teaching Models What Real Data Can’t",
+      "event": "PyData STL",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Event page",
+          "url": "https://www.meetup.com/pydata-st-louis/events/313352419"
+        }
+      ]
+    },
+    {
+      "title": "Debunking the myths of Quantum AI",
+      "event": "PyData STL",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Event page",
+          "url": "https://www.meetup.com/pydata-st-louis/events/313764006"
+        }
+      ]
+    },
+    {
+      "title": "The Hidden Power of Synthetic Data: Teaching Models What Real Data Can’t",
+      "event": "Launchcode Lunch N Learn",
+      "year": "2026"
     }
   ]
 }

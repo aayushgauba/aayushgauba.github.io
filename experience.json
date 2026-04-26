@@ -1,18 +1,34 @@
 {
   "items": [
     {
-      "role": "Software Engineer Intern",
-      "organization": "Your Company",
-      "period": "2025",
-      "summary": "Built internal tools and improved deployment reliability.",
-      "url": "https://example.com",
-      "urlLabel": "Role details"
+      "role": "Organizer",
+      "organization": "PyData STL",
+      "period": "December 2026 - Present",
+      "summary": "Organize PyData STL, a local chapter of the global PyData community, hosting events and talks on data science and machine learning topics."
     },
     {
-      "role": "Research Assistant",
-      "organization": "Your University",
-      "period": "2024",
-      "summary": "Worked on applied ML prototypes and evaluation pipelines."
+      "role": "Independent Researcher",
+      "organization": "Southern Illinois University Edwardsville",
+      "period": "January 2025 - Present",
+      "summary": "Worked on Mathematics and Physics research"
+    },
+    {
+      "role": "Undergraduate Researcher",
+      "organization": "Southern Illinois University Edwardsville",
+      "period": "August 2021 - September 2024",
+      "summary": "Research Topic: Computational Investigation of Phosphorylation Effects on Prospero using Advanced Sampling Techniques"
+    },
+    {
+      "role": "Software Developer Internship",
+      "organization": "Computer Concept",
+      "period": "June 2024 - August 2024",
+      "summary": "Collaborated on designing, developing, and deploying web applications."
+    },
+    {
+      "role": "Web Developer Internship",
+      "organization": "Bitrode Corporation",
+      "period": "March 2021 - August 2021",
+      "summary": "Using Python Django to create a Lean based QMS system Using Selenium tools for Functional Testing"
     }
   ]
 }

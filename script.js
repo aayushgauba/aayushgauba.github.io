@@ -27,6 +27,15 @@ function renderLoadError(message) {
   });
 }
 
+function renderSectionError(listId, message) {
+  const list = document.getElementById(listId);
+  if (!list) return;
+  list.textContent = "";
+  const li = document.createElement("li");
+  li.textContent = message;
+  list.appendChild(li);
+}
+
 function renderExperience(items) {
   const list = document.getElementById("experience-list");
   if (!list) return;
@@ -133,17 +142,42 @@ async function loadJson(path) {
 
 async function loadContent() {
   try {
-    const [experience, opensource, talks, papers] = await Promise.all([
+    const results = await Promise.allSettled([
       loadJson("experience.json"),
       loadJson("opensource.json"),
       loadJson("talks.json"),
       loadJson("papers.json")
     ]);
 
-    renderExperience(experience);
-    renderOpenSource(opensource);
-    renderTalks(talks);
-    renderPapers(papers);
+    const [experienceResult, opensourceResult, talksResult, papersResult] = results;
+
+    if (experienceResult.status === "fulfilled") {
+      renderExperience(experienceResult.value);
+    } else {
+      renderSectionError("experience-list", "Unable to load experience data.");
+      console.error("experience.json load failed:", experienceResult.reason);
+    }
+
+    if (opensourceResult.status === "fulfilled") {
+      renderOpenSource(opensourceResult.value);
+    } else {
+      renderSectionError("opensource-list", "Unable to load open source data.");
+      console.error("opensource.json load failed:", opensourceResult.reason);
+    }
+
+    if (talksResult.status === "fulfilled") {
+      renderTalks(talksResult.value);
+    } else {
+      renderSectionError("talks-list", "Unable to load talks data.");
+      console.error("talks.json load failed:", talksResult.reason);
+    }
+
+    if (papersResult.status === "fulfilled") {
+      renderPapers(papersResult.value);
+    } else {
+      renderSectionError("papers-list", "Unable to load papers data.");
+      console.error("papers.json load failed:", papersResult.reason);
+    }
   } catch (error) {
     if (window.location.protocol === "file:") {
       renderLoadError("Unable to load data via file://. Run with a local server (e.g., python -m http.server).");

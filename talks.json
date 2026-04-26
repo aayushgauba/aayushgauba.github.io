@@ -114,6 +114,17 @@
       "title": "The Hidden Power of Synthetic Data: Teaching Models What Real Data Can’t",
       "event": "Launchcode Lunch N Learn",
       "year": "2026"
+    },
+    {
+      "title": "Quantum-Like Nash Equilibrium: A Generalization of Strategic Behavior Beyond Classical Probability",
+      "event": "14th EAI International Conference on Game Theory for Networks (GameNets 2026)",
+      "year": "2026",
+      "links": [
+        {
+          "label": "Event page",
+          "url": "https://gamenets.eai-conferences.org/2026/accepted-papers/"
+        }
+      ]
     }
   ]
 }

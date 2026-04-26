@@ -1,6 +1,28 @@
 {
   "items": [
     {
+      "title": "Entanglement Guided Stochastic Regularization for Robust Deep Learning",
+      "event": "QNLP AI 2025",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Event page",
+          "url": "https://qnlp.ai/2025/schedule.html"
+        }
+      ]
+    },
+    {
+      "title": "Quantum-Inspired Attention for Efficient Face Recognition",
+      "event": "QNLP AI 2025",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Event page",
+          "url": "https://qnlp.ai/2025/schedule.html"
+        }
+      ]
+    },
+    {
       "title": "Beyond Rate Limiting: Building an Active Learning Defense System in Django",
       "event": "DjangoCon US 2025",
       "year": "2025",
@@ -8,6 +30,17 @@
         {
           "label": "Recording",
           "url": "https://www.youtube.com/watch?v=PUPSRMUlvdw"
+        }
+      ]
+    },
+    {
+      "title": "The Imitation Fallacy: Why Behavioral Equivalence Cannot Verify Artificial Consciousness",
+      "event": "IEEE CogMI 2025",
+      "year": "2025",
+      "links": [
+        {
+          "label": "Event page",
+          "url": "https://sis.pitt.edu/lersais/conference/cogmi/2025/technical-program/"
         }
       ]
     },
